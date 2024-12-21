@@ -1,6 +1,6 @@
 # simple markdown blogging framework
 
-I like simplicity in design. As such this is a simple markdown blogging framework that builds upon [prior work](https://owickstrom.github.io/the-monospace-web/) adding some bells and whistles:
+I like simplicity in design. As such this is a simple markdown blogging framework building on [prior work](https://owickstrom.github.io/the-monospace-web/) and adding the following bells and whistles:
 
 1. automatically include entries via `@include path/to/files`
 2. sort entries by creation time and add some timestamp
@@ -8,5 +8,4 @@ I like simplicity in design. As such this is a simple markdown blogging framewor
 4. store the state on github itself
 
 ## License
-
-[MIT](LICENSE.md)
+This project is based on [the-monospace-web]([link-to-original-repo](https://owickstrom.github.io/the-monospace-web/)) by Oskar Wickström, licensed under the MIT license.
