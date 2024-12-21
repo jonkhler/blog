@@ -51,7 +51,7 @@ $endfor$
     <td>MIT</td>
   </tr>
 </table>
-<label class="debug-toggle-label"><input type="checkbox" class="debug-toggle" /> Debug mode</label>
+<!-- <label class="debug-toggle-label"><input type="checkbox" class="debug-toggle" /> Debug mode</label> -->
 $if(abstract)$
 <div class="abstract">
 <div class="abstract-title">$abstract-title$</div>
@@ -63,7 +63,8 @@ $if(toc)$
 $if(toc-title)$
 <h2 id="$idprefix$toc-title">$toc-title$</h2>
 $endif$
-$table-of-contents$
+$toc$
+<!-- $table-of-contents$ -->
 </nav>
 $endif$
 $body$

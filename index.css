@@ -240,6 +240,16 @@ code {
   font-weight: var(--font-weight-medium);
 }
 
+pre.sourceCode {
+  margin: 2em !important;
+}
+
+span.last-modified {
+  font-size: .75rem;
+  font-style: italic;
+  color: var(--text-color-alt);
+}
+
 figure {
   margin: calc(var(--line-height) * 2) 3ch;
   overflow-x: auto;
