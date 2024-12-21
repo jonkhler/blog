@@ -1,15 +1,11 @@
-# The Monospace Web
+# simple markdown blogging framework
 
-Monospace fonts are dear to many of us. Some find them more readable, consistent, and beautiful, than their proportional alternatives. Maybe we’re just brainwashed from spending years in terminals? Or are we hopelessly nostalgic? I’m not sure. But I like them, and that’s why I started experimenting with all-monospace Web.
+I like simplicity in design. As such this is a simple markdown blogging framework that builds upon [prior work](https://owickstrom.github.io/the-monospace-web/) adding some bells and whistles:
 
-https://owickstrom.github.io/the-monospace-web/
-
-## Build
-
-```
-nix develop # or `direnv allow .`
-make
-```
+1. automatically include entries via `@include path/to/files`
+2. sort entries by creation time and add some timestamp
+3. keep the build a minimum `make clean; make all; make install`
+4. store the state on github itself
 
 ## License
 
