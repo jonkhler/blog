@@ -8,4 +8,4 @@ I like simplicity in design. As such this is a simple markdown blogging framewor
 4. store the state on github itself
 
 ## License
-This project is based on [the-monospace-web]([link-to-original-repo](https://owickstrom.github.io/the-monospace-web/)) by Oskar Wickström, licensed under the MIT license.
+This project is based on [the-monospace-web](https://owickstrom.github.io/the-monospace-web/) by Oskar Wickström, licensed under the MIT license.
