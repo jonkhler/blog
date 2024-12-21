@@ -13,6 +13,8 @@ version: v0.0.1
 
 This is a basic test of writing a blog.
 
+The whole source code running this blog can be found [here](https://github.com/jonkhler/the-monospace-web).
+
 ## Posts 
 
 @include entries/*
