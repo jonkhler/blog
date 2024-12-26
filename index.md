@@ -3,7 +3,7 @@ title: a blog
 subtitle: ml, science, code, fun
 author: Jonas Köhler
 author-url: "https://argmin.xyz"
-date: 2024-12-20
+date: 2024-12-26
 lang: en
 toc-title: content
 version: v0.0.1
