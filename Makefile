@@ -1,6 +1,6 @@
 SOURCE_FOLDER=.
 BUILD_FOLDER=build
-TARGET_FOLDER=${HOME}/html/blog
+TARGET_FOLDER=${HOME}/html
 
 # Ensure BUILD_FOLDER exists
 $(BUILD_FOLDER):
