@@ -39,12 +39,17 @@ def process_file(filepath):
                         with included_file.open("r", encoding="utf-8") as included:
                             lines = included.readlines()
 
+                            # Remove leading empty lines
+                            while lines[0].strip() == "":
+                                lines.pop(0)
+
                             # Check if the first line is a header (starts with "#")
                             if lines and lines[0].startswith("#"):
                                 # Insert the modification time below the first header
                                 included_content.append(lines[0])  # Header
                                 included_content.append(f"<span class=\"last-modified\">Last modified: {formatted_time}</span>\n")  # Time below header
                                 included_content.extend(lines[1:])  # Rest of the content
+                                print(f"Info: Including {included_file} (last modified: {formatted_time}).", file=sys.stderr)
                             else:
                                 # If no header, just append the file as is
                                 included_content.extend(lines)

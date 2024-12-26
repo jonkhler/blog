@@ -1,4 +1,3 @@
-
 ## starting a blog
 
 Following [the request](https://bsky.app/profile/imtd.bsky.social/post/3ldr7e5ge722x) of my close friend [Tim](https://www.trdavidson.com), I turned my [old researcher CV website](https://argmin.xyz/_old) into a blog to write about some stuff that I find interesting and worth to share with others.
